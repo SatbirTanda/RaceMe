@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0265" translatesAutoresizingMaskIntoConstraints="NO" id="cju-0X-vZO">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RaceMe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QDL-IG-C3a">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="60"/>
+                                <color key="textColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="QDL-IG-C3a" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="312" id="3Gc-Y0-Itu"/>
+                            <constraint firstItem="cju-0X-vZO" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="9b0-rJ-6M4"/>
+                            <constraint firstItem="QDL-IG-C3a" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="H1d-cd-Q6r"/>
+                            <constraint firstItem="cju-0X-vZO" firstAttribute="centerY" secondItem="QDL-IG-C3a" secondAttribute="centerY" id="Ssw-sg-iOc"/>
+                            <constraint firstItem="cju-0X-vZO" firstAttribute="centerX" secondItem="QDL-IG-C3a" secondAttribute="centerX" id="VXw-WA-War"/>
+                            <constraint firstItem="QDL-IG-C3a" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="apn-Mc-gCd"/>
+                            <constraint firstItem="cju-0X-vZO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="lf4-1t-j7a"/>
+                            <constraint firstItem="QDL-IG-C3a" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="ubE-4u-pvE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="cju-0X-vZO"/>
+                                <exclude reference="QDL-IG-C3a"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="3Gc-Y0-Itu"/>
+                                <exclude reference="H1d-cd-Q6r"/>
+                                <exclude reference="apn-Mc-gCd"/>
+                                <exclude reference="ubE-4u-pvE"/>
+                                <exclude reference="9b0-rJ-6M4"/>
+                                <exclude reference="Ssw-sg-iOc"/>
+                                <exclude reference="VXw-WA-War"/>
+                                <exclude reference="lf4-1t-j7a"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="cju-0X-vZO"/>
+                                <include reference="QDL-IG-C3a"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="3Gc-Y0-Itu"/>
+                                <include reference="H1d-cd-Q6r"/>
+                                <include reference="apn-Mc-gCd"/>
+                                <include reference="ubE-4u-pvE"/>
+                                <include reference="9b0-rJ-6M4"/>
+                                <include reference="Ssw-sg-iOc"/>
+                                <include reference="VXw-WA-War"/>
+                                <include reference="lf4-1t-j7a"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_0265" width="1024" height="683"/>
+    </resources>
+</document>
