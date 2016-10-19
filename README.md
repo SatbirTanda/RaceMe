@@ -36,4 +36,4 @@ Getting server-side generated routes and drawing them on Apple Maps.
 
 Race history fetched from the server.
 
-<img src="https://github.com/SatbirTanda/RaceMe/blob/master/imgs/IMG_0311.PNG width="33%">
+<img src="https://github.com/SatbirTanda/RaceMe/blob/master/imgs/IMG_0311.PNG" width="33%">
