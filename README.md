@@ -10,7 +10,6 @@ After finishing this project I gained a better understanding of what its like to
 Custom UIView animation from splashscreen to login screen, cube transition between view controllers, material buttons, and custom textfields. 
 
 ![alt tag](https://github.com/SatbirTanda/RaceMe/blob/master/gifs/raceme-1.gif)
-![alt tag](https://github.com/SatbirTanda/RaceMe/blob/master/gifs/raceme-2.gif)
 ![alt tag](https://github.com/SatbirTanda/RaceMe/blob/master/gifs/raceme-3.gif)
 ![alt tag](https://github.com/SatbirTanda/RaceMe/blob/master/gifs/raceme-4.gif)
 
