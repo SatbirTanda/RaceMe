@@ -1,6 +1,6 @@
 # Hunter College Capstone Project (499-01) - RaceMe
 
-For my undergraduate computer science capstone project, my team and I wanted to create an app that allows two people on different parts of the world race each other.  I was in charge of developing the iOS app.  It was a create opportunity for me to apply my knowledge of iOS development in a creative way.  
+For my undergraduate computer science capstone project, my team and I wanted to create an app that allows two people on different parts of the world race each other.  I was in charge of developing the iOS app - written in Swift 2.2, however I also contributed in designing the our NodeJS server.  It was a create opportunity for me to apply my knowledge of iOS development in a creative way.  
 
 After finishing this project I gained a better understanding of what its like to work with a team to build a custom REST API in NodeJS and have it communicate with an app.  I also mastered how to efficiently use packmanagers, like cocoapods, to incorporate outside libraries in my app.  From authentication with JWT to getting server-side generated routes to use on iOS to writing my own async HTTP methods, it was a good experience.
 
